@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*{
+    box-sizing: inherit;
+    padding:0;
+    margin:0;
+}
+ 
+body{
+    font-size: 1.6rem;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+.header{
+    max-width: 960px;
+    height: 220px;
+    border:2px solid white;
+    margin: 0 auto;
+    position:relative;
+}
+.header .between{
+    position:absolute;
+    right: 0;
+    top:0;
+    font-size: 2rem;
+    background-color: white;
+    color:black;
+    padding: 15px;
+}
+.header .btn{
+    font-size: 2.3rem;
+    padding: 15px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.header h3{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    background-color: white;
+    padding:15px;
+    display:inline-block;
+    margin-top: 70px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .number{
+    background-color: white;
+    color: black;
+    font-size: 2.9rem;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main{
+    max-width: 960px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.main .left{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+.main .right{
+    width: 50%;
+    padding-top: 50px;
+    
+}
+
+.main .guess{
+    font-size: 3rem;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.main .check{
+    font-size: 2.2rem;
+    padding: 15px;
+}
+
+.message{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.label-score{
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+.label-high-score{
+    font-size: 2.5rem;
+}
+.hidden{
+    display: none;
+}
